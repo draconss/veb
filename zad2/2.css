@@ -1,0 +1,41 @@
+*{
+	color: blue;
+}
+.cube{
+	background: red;
+	width: 150px;
+	margin: 0 0 1em;
+    height: 150px;
+    border: 10px solid black;
+}
+.H{
+	color: red;
+	font-size: 20px;
+}
+.class-14{
+	background-color: yellow;
+}
+.class-14>li{
+	color: red;
+	font-size: 15px;
+
+}
+
+span:hover,li:hover{
+    color: rgb(67, 120, 118);
+}
+li:nth-child(even){
+	 background-color: blue;
+}
+li:nth-child(odd){
+	 background-color: darkblue;
+}
+li:nth-child(1){
+	 background-color: black;
+}
+
+#id2>li{
+	color: white;
+	background-color: darkred;
+}
+
