@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+</body>
+<script>
+    //задания 1
+    var sec_all = 234245645335;
+    var hor = Math.floor(sec_all/3600);
+    var min = Math.floor((sec_all - hor*3600) / 60);
+    var sec = sec_all%60;
+    var alls_sec = min * 60 + sec;
+    console.log("скільки пройшло секунд")
+    console.log(sec);
+    console.log("скільки пройшло секунд вместе с минутами")
+    console.log(alls_sec);
+
+
+    //зданиє 2
+    var text = " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, at.";
+    var ind = [];
+    for (var i = 0; i<text.length; i++){
+        if(text[i]=='a'){
+            ind.push(i);
+        }
+    }
+    console.log("масив с индексами");
+    console.log(ind);
+
+</script>
+</html>
