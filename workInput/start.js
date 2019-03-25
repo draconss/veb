@@ -1,9 +1,9 @@
-var but = document.getElementById("1");
-
 function cl() {
+	var obj = {}
     var a = document.getElementsByClassName("in");
     for(var i = 0;i<a.length;i++){
-        console.log(a[i].value);
+		obj[i] = a[i].value;
     }
+	console.log(obj);
 }
-but.addEventListener("click",cl);
+document.getElementById("1").addEventListener("click",cl);
